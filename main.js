@@ -726,7 +726,7 @@ var SEPARATION = 100,
  
     function init() {
  
-        container = document.getElementById('header-animation');
+        container = document.getElementById('wm-header-animation');
         //container = document.createElement('div');
        // document.body.appendChild(container);
  

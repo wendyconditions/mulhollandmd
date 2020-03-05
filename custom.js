@@ -1,6 +1,11 @@
 $(function(){
     $( document ).ready(function() {
-        $("#main_h1").removeClass("invisible").addClass("animated slideInLeft");
-        //$( "#main_h1" ).data( "data-wow-duration", "1.5s" );
+        $("#wm_main_h1").removeClass("invisible").addClass("animated slideInLeft");
+
+        $('.collapse').on('shown.bs.collapse', function(){
+            //console.log('hi');
+        })
+
+       // document.addEventListener('collapse', 'shown.bs.collapse', {passive: false});
     });
 });

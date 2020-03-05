@@ -45,7 +45,7 @@ p {
     box-shadow: 5px 10px 8px #eeeeee;
 }
 
-#header-main {
+#wm-header-main {
     height: 550px;
     margin: 0 auto;
     border-bottom: 1px solid #193c6d;
@@ -67,25 +67,25 @@ p {
     overflow: hidden;
 }
 
-#header-animation {
+#wm-header-animation {
     position: relative;
 }
 
-.header-text {
+.wm-header-text {
     width: 100%;
     z-index: 999;
     position: absolute;
     text-align: center;
 }
 
-.vertical-header-text {
+.wm-vertical-header-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 400px;
 }
 
-.header-text h1 {
+.wm-header-text h1 {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 56px;
@@ -94,7 +94,7 @@ p {
     margin-bottom: 0;
 }
 
-.header-text h2 {
+.wm-header-text h2 {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 30px;
@@ -110,26 +110,30 @@ p {
     box-shadow: none;
 }
 
+/* .navbar-toggler:focus {
+    background-color:green;
+} */
+
 @media screen and (max-width: 768px) {
-    #header-main {
+    #wm-header-main {
         min-height: 100vh;
         background-size: cover;
     }
-    #header-animation {
+    #wm-header-animation {
         visibility: hidden;
     }
-    .header-text h1 {
+    .wm-header-text h1 {
         font-size: 2.1em;
         line-height: 1.3em;
     }
-    .header-text h2 {
+    .wm-header-text h2 {
         font-size: 1.2em;
         line-height: 1.7em;
     }
 }
 
 @media screen and (max-width: 922px) {
-    #header-main {
+    #wm-header-main {
         min-height: 100vh;
         background-size: cover;
     }
