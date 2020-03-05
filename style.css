@@ -1,11 +1,11 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
 html, body, form, fieldset, table, tr, td, img {
     margin: 0;
     padding: 0;
-} 
+}
 
 h1, h2, h3, h4, h3, h5, h6 {
     clear: both;
@@ -18,18 +18,23 @@ h1, h2, h3, h4, h3, h5, h6 {
 h2 {
     font-size: 34px;
 }
+
 h3 {
     font-size: 26px;
 }
+
 h4 {
     font-size: 22px;
 }
+
 h5 {
     font-size: 18px;
 }
+
 h6 {
     font-size: 15px;
 }
+
 p {
     margin-bottom: 12px;
     font-family: 'Open Sans', sans-serif;
@@ -40,7 +45,7 @@ p {
     box-shadow: 5px 10px 8px #eeeeee;
 }
 
-#header-main{
+#header-main {
     height: 550px;
     margin: 0 auto;
     border-bottom: 1px solid #193c6d;
@@ -54,37 +59,34 @@ p {
     background-image: -moz-linear-gradient(45deg, #003073, #029797);
     background-image: -ms-linear-gradient(45deg, #003073 0, #029797 100%);
     background-image: -o-linear-gradient(45deg, #003073, #029797);
-    background-image: linear-gradient(135deg, #003073, #029797); 
-    background-image:linear-gradient(-45deg, rgba(48, 4, 150, 0), rgb(7, 147, 241)), 
-    url("images/main/header-image-compressed5.jpg");
+    background-image: linear-gradient(135deg, #003073, #029797);
+    background-image: linear-gradient(-45deg, rgba(48, 4, 150, 0), rgb(7, 147, 241)), url("images/main/header-image-compressed5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
-
     overflow: hidden;
 }
 
-
- #header-animation{
+#header-animation {
     position: relative;
 }
 
-.header-text{
+.header-text {
     width: 100%;
     z-index: 999;
     position: absolute;
     text-align: center;
 }
 
-.vertical-header-text{
+.vertical-header-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height:400px;
+    height: 400px;
 }
 
 .header-text h1 {
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 56px;
     font-weight: 700;
@@ -92,38 +94,43 @@ p {
     margin-bottom: 0;
 }
 
-.header-text h2{
-    font-family:  'Open Sans', sans-serif;
+.header-text h2 {
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 30px;
     font-weight: 100;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
 @media screen and (max-width: 768px) {
-    #header-main{
+    #header-main {
         min-height: 100vh;
         background-size: cover;
     }
-
-    #header-animation{
+    #header-animation {
         visibility: hidden;
     }
-
-    .header-text h1{
+    .header-text h1 {
         font-size: 2.1em;
         line-height: 1.3em;
     }
-
-    .header-text h2{
+    .header-text h2 {
         font-size: 1.2em;
         line-height: 1.7em;
     }
-  }
+}
 
-
-  @media screen and (max-width: 922px) {
-    #header-main{
+@media screen and (max-width: 922px) {
+    #header-main {
         min-height: 100vh;
         background-size: cover;
     }
-  }
+}
