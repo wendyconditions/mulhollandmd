@@ -101,18 +101,23 @@ p {
     font-weight: 100;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    text-align: center;
+/* Navigation CSS - Hamburger style*/
+.navbar-light .navbar-toggler {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-toggler:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-toggler:active {
+    box-shadow: none;
 }
 
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     box-shadow: none;
 }
-
-/* .navbar-toggler:focus {
-    background-color:green;
-} */
 
 @media screen and (max-width: 768px) {
     #wm-header-main {
@@ -130,11 +135,34 @@ p {
         font-size: 1.2em;
         line-height: 1.7em;
     }
+
+    /* Navigation CSS */
+    .navbar-light .navbar-nav .nav-link {
+        border-top: 1px solid #eeeeee;
+        padding-left:10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:first-child {
+        border-top: none;
+        padding-top: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:last-child {
+        border-bottom: 1px solid #eeeeee;
+    }
 }
 
 @media screen and (max-width: 922px) {
     #wm-header-main {
         min-height: 100vh;
         background-size: cover;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        border-top: 1px solid #eeeeee;
+        padding-left:10px;
+    }
+    .navbar-light .navbar-nav .nav-link:last-child {
+        border-bottom: 1px solid #eeeeee;
     }
 }
