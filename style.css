@@ -164,7 +164,5 @@ p {
 
 @media screen and (max-width: 375px) {
     #wm-header-main {
-        height: auto;
-        background-attachment: scroll;
     }
 }
