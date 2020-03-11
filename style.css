@@ -127,7 +127,7 @@ p {
 @media screen and (max-width: 768px) {
     #wm-header-main {
         min-height: 100vh;
-        background-size: cover;
+        background-size: cover!important;
     }
     #wm-header-animation {
         visibility: hidden;
@@ -157,7 +157,7 @@ p {
 @media screen and (max-width: 922px) {
     #wm-header-main {
         min-height: 100vh;
-        background-size: cover;
+        background-size: cover!important;
     }
     .navbar-light .navbar-nav .nav-link {
         border-top: 1px solid #eeeeee;
