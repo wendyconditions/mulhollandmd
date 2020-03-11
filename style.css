@@ -124,14 +124,14 @@ p {
     outline: none;
     box-shadow: none;
 }
-
+*/
 @media screen and (max-width: 922px) {
     #wm-header-main {
         height: auto;
         max-height: 100vh;
         /* background-size: cover; */
     }
-    /* Navigation CSS */
+    /* Navigation CSS 
     .navbar-light .navbar-nav .nav-link {
         border-top: 1px solid #eeeeee;
         padding-left: 10px;
@@ -142,7 +142,7 @@ p {
     }
     .navbar-light .navbar-nav .nav-link:last-child {
         border-bottom: 1px solid #eeeeee;
-    }
+    }*/
 }
 
 @media screen and (max-width: 768px) {
@@ -164,5 +164,6 @@ p {
 
 @media screen and (max-width: 375px) {
     #wm-header-main {
+        height: auto;
     }
 }
